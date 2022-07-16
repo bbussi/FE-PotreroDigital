@@ -98,6 +98,19 @@ header{
   margin-bottom: 19.2px;
 }
 
+#banner {
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.banner__img{
+  height:100%;
+  width: 100%
+}
+
 .carousel-item {
    height: 25vh;
  }
