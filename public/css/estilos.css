@@ -97,3 +97,7 @@ header{
   margin-top: 19.2px;
   margin-bottom: 19.2px;
 }
+
+.carousel-item {
+   height: 25vh;
+ }
