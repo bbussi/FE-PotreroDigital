@@ -104,6 +104,8 @@ header{
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-bottom: 30px;
+  background-color: rgb(245,246,251)
 }
 
 .banner__img{
@@ -116,11 +118,37 @@ header{
  }
 
  /*MAIN*/
- .main section {
+ main section {
    width:100%;
    height: 24vh;
    display:flex;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
    align-content: center;
+   flex-direction: column;
+   background-color: rgb(245,246,251);
  }
+
+main section h1 {
+  margin:0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.panaderia__img{
+  height: 80%;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.tortas__img{
+  height: 80%;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.catering__img{
+  height: 80%;
+  width: 100%;
+  padding: 0 30px;
+}
