@@ -189,3 +189,38 @@ header{
   margin: 50px;
   text-align: justify;
 }
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: url("../img/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+
+}
+
+#contact {
+  margin-right: 50px;
+}
+.contact_title{
+  font-size: 2rem;
+  color: white;
+}
+
+.contact_item {
+  font-size: 2rem;
+  color:white;
+}
+
+.contact_link{
+  color:white;
+  text-decoration: none;
+}
