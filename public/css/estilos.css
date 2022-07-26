@@ -226,6 +226,10 @@ header{
   margin: 50px;
   text-align: justify;
 }
+/*GALERIA*/
+#staticGalery{
+  display:none;
+}
 
 /*FOOTER*/
 footer {
@@ -334,7 +338,7 @@ footer {
     flex-wrap: wrap;
     direction: row;
   }
-
+/*secciones main*/
   main section {
     width:33.33%;
     height: 24vh;
@@ -352,7 +356,7 @@ footer {
     font-size: 1rem;
     background-color: rgb(245,246,251);
   }
-
+/*pedidos*/
   #pedidos {
     height: 15vh;
     background-color: rgb(230,230,230);
@@ -363,7 +367,7 @@ footer {
   .pedidos_title{
     font-size: 3rem;
   }
-
+/*nosotros*/
   #us {
     height: 25vh;
     background-color: rgb(200,200,200);
@@ -379,5 +383,22 @@ footer {
     margin: 0px 20px 0px 20px;
     text-align: justify;
   }
+/*galeria*/
+#carouselGalery{
+  display:none;
+}
 
+#staticGalery{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%
+  height: 24vh;
+  margin: 10px 0px 20px 0px;
+}
+
+.static-item{
+  margin:15px;
+}
 }
