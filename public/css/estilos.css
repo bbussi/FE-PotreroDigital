@@ -128,7 +128,7 @@ header{
    background-color: rgb(245,246,251);
  }
 
-/*PRODCUTOS*/
+/*PRODUCTOS*/
 .section__title {
   margin:0;
   font-weight: bold;
@@ -270,6 +270,7 @@ footer {
 
   header{
    height:10vh;
+   margin-bottom: 8px;
   }
 
   .header__icon{
@@ -323,4 +324,60 @@ footer {
   #banner {
     display:none;
   }
+
+  /*MAIN*/
+  main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    direction: row;
+  }
+
+  main section {
+    width:33.33%;
+    height: 24vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 8px 0px 8px 0px;
+    padding: 5px 0px 5px 0px;
+  }
+
+  .section__title{
+    font-size: 1rem;
+    background-color: rgb(245,246,251);
+  }
+
+  #pedidos {
+    height: 15vh;
+    background-color: rgb(230,230,230);
+    border-width: 5px;
+    margin-bottom: 0px;
+  }
+
+  .pedidos_title{
+    font-size: 3rem;
+  }
+
+  #us {
+    height: 25vh;
+    background-color: rgb(200,200,200);
+    margin-top: 0px;
+  }
+
+  .us_title{
+    font-size: 2rem;
+  }
+
+  #us p{
+    font-size: 1rem;
+    margin: 0px 20px 0px 20px;
+    text-align: justify;
+  }
+
 }
