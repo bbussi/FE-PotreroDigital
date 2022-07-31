@@ -140,103 +140,29 @@ header{
    background-color: rgb(245,246,251);
  }
 
+ /*NOSOTROS*/
+ #us {
+   width: 100%;
+   height: 50vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   background-color: rgb(245,246,251);
+   flex-direction: column;
+ }
 
 
-/*PRODUCTOS
+ .us_title{
+   font-size: 3rem;
+ }
 
+ #us p{
+   font-size: 2rem;
+   margin: 50px;
+   text-align: justify;
+ }
 
-.panaderia__img{
-  height: 80%;
-  width: 100%;
-  padding: 0 30px;
-}
-
-.tortas__img{
-  height: 80%;
-  width: 100%;
-  padding: 0 30px;
-}
-
-.catering__img{
-  height: 80%;
-  width: 100%;
-  padding: 0 30px;
-}
-*/
-
-/*DESARROLLO PRODUCTOS*/
-#desarrollo_panaderia{
-  width: 100%;
-  height: 48vh;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  margin:25px;
-}
-
-.dp_item{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 50%;
-  height: 50%;
-  padding: 25px;
-  background-color: rgb(200,200,200);
-}
-
-.dp_title{
-  font-weight: bold;
-  font-size: 2rem;
-}
-
-.dp_img{
-  width: 100%;
-  height: 80%;
-}
-
-
-
-/*PEDIDOS*/
-#pedidos {
-  width: 100%;
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  background-color: rgb(230,230,230);
-  border-width: 5px;
-}
-
-.pedidos_title{
-  font-size: 4rem;
-}
-
-/*NOSOTROS*/
-#us {
-  width: 100%;
-  height: 50vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  background-color: rgb(200,200,200);
-}
-
-.us_title{
-  font-size: 3rem;
-}
-
-#us p{
-  font-size: 2rem;
-  margin: 50px;
-  text-align: justify;
-}
 /*GALERIA*/
 .carousel-item {
    height: 25vh;
@@ -249,7 +175,7 @@ header{
 /*FOOTER*/
 footer {
   width: 100%;
-  height: 15vh;
+  height: 12vh;
   display: flex;
   align-items: center;
   align-content: flex-end;
