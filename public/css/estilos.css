@@ -42,7 +42,7 @@ header{
 
 .header__navigation{
   width:100%;
-  height: 25vh;
+  height: 30vh;
   background-color: rgb(230,230,230,.8);
   display:none;
 }
@@ -52,6 +52,7 @@ header{
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  position: relative;
 }
 
 .header__navigation--disabled{
@@ -88,7 +89,7 @@ header{
 /*BANNER*/
 
 #banner {
-  height: 34vh;
+  height: 30vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,17 +211,4 @@ footer {
 .contact_link{
   color:white;
   text-decoration: none;
-}
-
-#banner {
-  display:none;
-}
-main{
-  display:none;
-}
-#carouselGalery{
-  display:none;
-}
-footer {
-  display:none;
 }
