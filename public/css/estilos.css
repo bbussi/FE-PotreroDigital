@@ -184,26 +184,30 @@ header{
 
 
  .us_title{
-   font-size: 3rem;
+   font-size: 1.25rem;
+   margin-top: 25px;
  }
 
  #us p{
-   font-size: 2rem;
-   margin: 50px;
+   font-size: 1rem;
+   margin: 25px;
    text-align: justify;
  }
 
 /*GALERIA*/
 .carousel-item {
-   height: 25vh;
+   height: 30vh;
  }
 
 #staticGalery{
   display:none;
 }
 
-/*FOOTER*/
-footer {
+/*FOOTER   background-image: url("../img/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;*/
+.footer_img {
   width: 100%;
   height: 12vh;
   display: flex;
@@ -212,25 +216,28 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
-  background-image: url("../img/footer_img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: transparent;
-
+  background-color: rgb(245,246,251);
+  position: relative;
 }
 
-#contact {
-  margin-right: 50px;
-}
 .contact_title{
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
+  position: absolute;
+  top: 5%;
+  right: 26px;
+  margin: 0;
 }
 
-.contact_item {
-  font-size: 2rem;
+.contact_list {
+  font-size: 0.8rem;
   color:white;
+  position: absolute;
+  bottom: 5%;
+  right: 16px;
+  margin: 0px;
 }
+
 
 .contact_link{
   color:white;
