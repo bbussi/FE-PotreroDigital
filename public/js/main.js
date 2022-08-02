@@ -13,10 +13,11 @@ button.onclick=function(){
   }
   cont++
 }
-/*VER SI SE PUEDE HACER, FALTA*/
+/*VER SI SE PUEDE HACER, FALTA
 var article=document.querySelector(".article__item")
 var display=document.querySelector(".articles__list")
 
 article.onclick=function(){
   display.classList.add("articles__list--active")
 }
+*/

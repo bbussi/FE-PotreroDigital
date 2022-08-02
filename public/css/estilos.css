@@ -104,6 +104,10 @@ header{
   width: 100%;
 }
 
+.banner__title{
+  display:none;
+}
+
 
  /*MAIN*/
  /*ARTICLES*/
@@ -203,10 +207,6 @@ header{
   display:none;
 }
 
-/*FOOTER   background-image: url("../img/footer_img.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: transparent;*/
 .footer_img {
   width: 100%;
   height: 12vh;
@@ -285,9 +285,20 @@ header{
 
   /*BANNER*/
   #banner {
-    height: 50vh;
+    height: 88vh;
+    position: relative;
+    text-align: center;
   }
 
+  .banner__title{
+    display:flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    background-color: rgb(245,246,251);
+  }
   /*MAIN*/
   main {
     display:flex;
@@ -295,38 +306,40 @@ header{
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    direction: row;
   }
 /*secciones main*/
+#articles{
+  display: flex;
+  flex-direction: row;
+}
 
+.articles__item{
+  width:33%;
+}
 
-/*pedidos*/
-  #pedidos {
-    height: 15vh;
-    background-color: rgb(230,230,230);
-    border-width: 5px;
-    margin-bottom: 0px;
-  }
+.articles__img{
+  height: 40vh;
+  width: 45vh;
+  margin:15px;
+  position: relative;
+  text-align: center;
+  background-color: rgb(245,246,251);
+}
 
-  .pedidos_title{
-    font-size: 3rem;
-  }
-/*nosotros*/
-  #us {
-    height: auto;
-    background-color: rgb(200,200,200);
-    margin-top: 0px;
-  }
+.articles__title_right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  .us_title{
-    font-size: 2rem;
-  }
+.articles__title_left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  #us p{
-    font-size: 1rem;
-    margin: 0px 20px 0px 20px;
-    text-align: justify;
-  }
 /*galeria*/
   #carouselGalery{
     display:none;
@@ -348,11 +361,6 @@ header{
 
 /*FOOTER*/
 
-  .contact_title{
-    font-size: 1rem;
-  }
-
-  .contact_item {
-    font-size: 1rem;
-  }
+.footer_img {
+  height: 16vh;
 }
