@@ -313,13 +313,10 @@ header{
   flex-direction: row;
 }
 
-.articles__item{
-  width:33%;
-}
 
 .articles__img{
   height: 40vh;
-  width: 45vh;
+  width: 30vw ;
   margin:15px;
   position: relative;
   text-align: center;
